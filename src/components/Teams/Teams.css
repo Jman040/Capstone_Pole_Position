@@ -1,0 +1,10 @@
+.teams {
+    display: flex;
+    flex-direction: column;
+}
+.team {
+    background-color:cadetblue;
+    border: 1px solid;
+    padding: .10rem;
+    margin: .5rem 0;
+}
