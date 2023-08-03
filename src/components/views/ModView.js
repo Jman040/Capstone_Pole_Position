@@ -2,6 +2,10 @@ import { Outlet, Route, Routes } from "react-router-dom";
 import { DriverDetails } from "../Drivers/DriverDetails.js";
 import { TeamDetails } from "../Teams/TeamDetails.js";
 import { ScheduleDetails } from "../Schedule/ScheduleDetails.js";
+import "./ApplicationViews.css"
+import { EditDriver } from "../Edit/EditDriver/EditDriver.js";
+import { EditRace } from "../Edit/EditRace/EditRace.js";
+import { MyDrivers } from "../MyDrivers/MyDrivers.js";
 
 
 export const ModViews = () => {
@@ -12,7 +16,7 @@ export const ModViews = () => {
                 element={
                     <>
                         <h1>Pole Position</h1>
-                        <div>Your Driver Awaits</div>
+                        <div className="sub-heading">Your Driver Awaits</div>
 
                         <Outlet />
                     </>
@@ -24,13 +28,12 @@ export const ModViews = () => {
 
                 <Route path="schedule" element={<ScheduleDetails />} />
 
-                {/* <Route path="myDrivers" element={<MyDrivers />} />
+                <Route path="myDrivers" element={<MyDrivers />} />
 
-                <Route path="newDriver" element={<NewDriver />} />
+                <Route path="drivers/:driverId" element={<EditDriver />} />
+                <Route path="schedule/:raceId" element={<EditRace />} />
 
-                <Route path="newTeam" element={<NewTeam />} />
 
-                <Route path="updateSchedule" element={<UpdateSchedule />} />  */}
 
             </Route>
         </Routes>

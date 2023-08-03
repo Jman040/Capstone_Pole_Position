@@ -7,7 +7,7 @@ export const NavBar = () => {
     const localPoleUser = localStorage.getItem("pole_user");
     const poleUserObject = JSON.parse(localPoleUser);
 
-    if (poleUserObject.staff) {
+    if (poleUserObject.isMod) {
         return <ModNav />;
     } else {
         return <FanNav />;

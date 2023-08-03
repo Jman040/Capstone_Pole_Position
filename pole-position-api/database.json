@@ -1,557 +1,618 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "fullName": "Dion Stoade",
-            "email": "dstoade0@cornell.edu",
-            "isMod": false
-          },
-          {
-            "id": 2,
-            "fullName": "Windy Thorneloe",
-            "email": "wthorneloe1@usa.gov",
-            "isMod": false
-          },
-          {
-            "id": 3,
-            "fullName": "Hillie Phillpotts",
-            "email": "hphillpotts2@rakuten.co.jp",
-            "isMod": false
-          },
-          {
-            "id": 4,
-            "fullName": "Helenelizabeth Passfield",
-            "email": "hpassfield7@netvibes.com",
-            "isMod": true
-          },
-          {
-            "id": 5,
-            "fullName": "Franchot Slator",
-            "email": "fslator8@51.la",
-            "isMod": true
-          },
-          {
-            "id": 6,
-            "fullName": "Renaud Erbe",
-            "email": "rerbe9@psu.edu",
-            "isMod": true
-          },
-          {
-            "email": "jeremy@bakker.com",
-            "fullName": "Jeremy Bakker",
-            "isMod": true,
-            "id": 7
-          }
-    ],
-    "fanUsers": [],
-    "myDrivers": [],
-    "drivers": [
-        {
-            "id": 44,
-            "name": "Lewis Hamilton",
-            "championshipStanding": 4,
-            "driversChampionPoints": 121,
-            "podiumsThisSeason": 4,
-            "fastestLapsThisSeason": 1,
-            "country": "United Kingdom",
-            "teamId": 1,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 1,
-            "name": "Max Verstappen",
-            "championshipStanding": 1,
-            "driversChampionPoints": 255,
-            "podiumsThisSeason": 10,
-            "fastestLapsThisSeason": 5,
-            "country": "Netherlands",
-            "teamId": 2,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 11,
-            "name": "Sergio Perez",
-            "championshipStanding": 2,
-            "driversChampionPoints": 156,
-            "podiumsThisSeason": 5,
-            "fastestLapsThisSeason": 2,
-            "country": "Mexico",
-            "teamId": 2,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 77,
-            "name": "Valtteri Bottas",
-            "championshipStanding": 15,
-            "driversChampionPoints": 5,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Finland",
-            "teamId": 9,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 4,
-            "name": "Lando Norris",
-            "championshipStanding": 8,
-            "driversChampionPoints": 42,
-             "podiumsThisSeason": 1,
-            "fastestLapsThisSeason": 0,
-            "country": "United Kingdom",
-            "teamId": 4,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 3,
-            "name": "Daniel Ricciardo",
-            "championshipStanding": 20,
-            "driversChampionPoints": 0,
-             "podiumsThisSeason": "N/A",
-            "fastestLapsThisSeason": "N/A",
-            "country": "Australia",
-            "teamId": 6,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 55,
-            "name": "Carlos Sainz Jr.",
-            "championshipStanding": 6,
-            "driversChampionPoints": 83,
-             "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Spain",
-            "teamId": 3,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 16,
-            "name": "Charles Leclerc",
-            "championshipStanding": 7,
-            "driversChampionPoints": 74,
-            "podiumsThisSeason": 2,
-            "fastestLapsThisSeason": 0,
-            "country": "Monaco",
-            "teamId": 3,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 81,
-            "name": "Oscar Piastri",
-            "championshipStanding": 11,
-            "driversChampionPoints": 17,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Australia",
-            "teamId": 4,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 18,
-            "name": "Lance Stroll",
-            "championshipStanding": 9,
-            "driversChampionPoints": 44,
-             "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Canada",
-            "teamId": 7,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 14,
-            "name": "Fernando Alonso",
-            "championshipStanding": 3,
-            "driversChampionPoints": 137,
-            "podiumsThisSeason": 6,
-            "fastestLapsThisSeason": 0,
-            "country": "Spain",
-            "teamId": 7,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 31,
-            "name": "Esteban Ocon",
-            "championshipStanding": 10,
-            "driversChampionPoints": 31,
-            "podiumsThisSeason": 1,
-            "fastestLapsThisSeason": 0,
-            "country": "France",
-            "teamId": 5,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 10,
-            "name": "Pierre Gasly",
-            "championshipStanding": 12,
-            "driversChampionPoints": 16,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "France",
-            "teamId": 5,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 22,
-            "name": "Yuki Tsunoda",
-            "championshipStanding": 17,
-            "driversChampionPoints": 2,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Japan",
-            "teamId": 6,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 23,
-            "name": "Alexander Albon",
-            "championshipStanding": 13,
-            "driversChampionPoints": 11,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Thailand",
-            "teamId": 8,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 27,
-            "name": "Nico Hulkenberg",
-            "championshipStanding": 14,
-            "driversChampionPoints": 9,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Germany",
-            "teamId": 10,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 24,
-            "name": "Zhou Guanyu",
-            "championshipStanding": 16,
-            "driversChampionPoints": 4,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 1,
-            "country": "China",
-            "teamId": 9,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 2,
-            "name": "Logan Sargeant",
-            "championshipStanding": 19,
-            "driversChampionPoints": 0,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Germany",
-            "teamId": 8,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 63,
-            "name": "George Russel",
-            "championshipStanding": 5,
-            "driversChampionPoints": 82,
-            "podiumsThisSeason": 1,
-            "fastestLapsThisSeason": 1,
-            "country": "United Kingdom",
-            "teamId": 1,
-            "img": "url_to_driver_image"
-        },
-        {
-            "id": 20,
-            "name": "Kevin Magnussen",
-            "championshipStanding": 18,
-            "driversChampionPoints": 2,
-            "podiumsThisSeason": 0,
-            "fastestLapsThisSeason": 0,
-            "country": "Denmark",
-            "teamId": 10,
-            "img": "url_to_driver_image"
-        }
-
-    ],
-    "teams": [
-        {
-            "id": 1,
-            "teamName": "Mercedes",
-            "constructorStanding": 2,
-            "constructorPoints": 203,
-            "fastestLaps": 2,
-            "currentTeamPrincipal": "Toto Wolff",
-            "driverId1": 44,
-            "driverId2": 63
-        },
-        {
-            "id": 2,
-            "teamName": "Red Bull Racing",
-            "constructorStanding": 1,
-            "constructorPoints": 411,
-            "fastestLaps": 7,
-            "currentTeamPrincipal": "Christian Horner",
-            "driverId1": 1,
-            "driverId2": 11
-        },
-        {
-            "id": 3,
-            "teamName": "Ferrari",
-            "constructorStanding": 4,
-            "constructorPoints": 157,
-            "fastestLaps": 0,
-            "currentTeamPrincipal": "Frederic Vasseur",
-            "driverId1": 16,
-            "driverId2": 55
-        },
-        {
-            "id": 4,
-            "teamName": "McLaren",
-            "constructorStanding": 5,
-            "constructorPoints": 59,
-            "fastestLaps": 0,
-            "currentTeamPrincipal": "Andrea Stella",
-            "driverId1": 81,
-            "driverId2": 4
-        },
-        {
-            "id": 5,
-            "teamName": "Alpine",
-            "constructorStanding": 6,
-            "constructorPoints": 47,
-            "fastestLaps": 0,
-            "currentTeamPrincipal": "Otmar Seafnauer",
-            "driverId1": 10,
-            "driverId2": 31
-        },
-        {
-            "id": 6,
-            "teamName": "AlphaTauri",
-            "constructorStanding": 10,
-            "constructorPoints": 2,
-            "fastestLaps": 0,
-            "currentTeamPrincipal": "Franz Tost",
-            "driverId1": 22,
-            "driverId2": 3
-        },
-        {
-            "id": 7,
-            "teamName": "Aston Martin",
-            "constructorStanding": 3,
-            "constructorPoints": 181,
-            "fastestLaps": 0,
-            "currentTeamPrincipal": "Mike Krack",
-            "driverId1": 18,
-            "driverId2": 14
-        },
-        {
-            "id": 8,
-            "teamName": "Williams",
-            "constructorStanding": 7,
-            "constructorPoints": 11,
-            "fastestLaps": 0,
-            "currentTeamPrincipal": "James Vowles",
-            "driverId1": 2,
-            "driverId2": 23
-        },
-        {
-            "id": 9,
-            "teamName": "Alfa Romeo",
-            "constructorStanding": 9,
-            "constructorPoints": 9,
-            "fastestLaps": 1,
-            "currentTeamPrincipal": "Alessandro Alunni Bravi",
-            "driverId1": 24,
-            "driverId2": 77
-        },
-        {
-            "id": 10,
-            "teamName": "Haas",
-            "constructorStanding": 8,
-            "constructorPoints": 11,
-            "fastestLaps": 0,
-            "currentTeamPrincipal": "Guenther Steiner",
-            "driverId1": 27,
-            "driverId2": 20
-        }
-    ],
-    "races": [
-        {
-            "id": 1,
-            "date": "2023-03-05",
-            "driverId": 1,
-            "round": 1,
-            "trackName": "Bahrain International Circuit",
-            "laps": 57
-           
-        },
-        {
-            "id": 2,
-            "date": "2023-03-19",
-            "driverId": 11,
-            "round": 2,
-            "trackName": "Saudi Arabia",
-            "laps": 55
-            
-        },
-        {
-            "id": 3,
-            "date": "2023-04-02",
-            "driverId": 1,
-            "round": 3,
-            "trackName": "Austalian Grand Prix",
-            "laps": 58
-           
-        },
-        {
-            "id": 4,
-            "date": "2023-04-30",
-            "driverId": 11,
-            "round": 4,
-            "trackName": "Azerbaijan Grand Prix",
-            "laps": 51
-        },
-        {
-            "id": 5,
-            "date": "2023-05-07",
-            "driverId": 1,
-            "round": 5,
-            "trackName": "Miami Grand Prix",
-            "laps": 57
-        },            
-        {
-            "id": 7,
-            "date": "2023-05-28",
-            "driverId": 1,
-            "round": 7,
-            "trackName": "Monaco Grand Prix",
-            "laps": 78
-        },
-        {
-            "id": 8,
-            "date": "2023-06-04",
-            "driverId": 1,
-            "round": 8,
-            "trackName": "AWS Gran Premio de Espana",
-            "laps": 78
-        },
-        {
-            "id": 9,
-            "date": "2023-06-18",
-            "driverId": 1,
-            "round": 9,
-            "trackName": "Grand Prix Du Canada",
-            "laps": 70
-            
-        },
-        {
-            "id": 10,
-            "date": "2023-07-02",
-            "driverId": 1,
-            "round": 10,
-            "trackName": "Grosser Preis Von Osterreich",
-            "laps": 71
-        },
-        {
-            "id": 11,
-            "date": "2023-07-09",
-            "driverId": 1,
-            "round": 11,
-            "trackName": "Aramco British Grand Prix",
-            "laps": 52
-        },
-        {
-            "id": 12,
-            "date": "2023-07-23",
-            "driverId": 1,
-            "round": 13,
-            "trackName": "Hungarian Grand Prix",
-            "laps": 70
-        },
-        {
-            "id": 13,
-            "date": "2023-07-30",
-            "driverId": 0,
-            "round": 13,
-            "trackName": "MSC Cruises Belgian Grand Prix",
-            "laps": 44
-        },
-        {
-            "id": 14,
-            "date": "2023-8-27",
-            "driverId": 0,
-            "round": 14,
-            "trackName": "Keineken Dutch Grand Prix",
-            "laps": 53
-        },
-        {
-            "id": 15,
-            "date": "2023-09-03",
-            "driverId": 0,
-            "round": 15,
-            "trackName": "Pirelli Grand Premio D'Italia",
-            "laps": 53
-        },
-        {
-            "id": 16,
-            "date": "2023-9-17",
-            "driverId": 0,
-            "round": 16,
-            "trackName": "Singapore Airlines Singapore Grand Prix",
-            "laps": 63
-        },
-        {
-            "id": 17,
-            "date": "2023-09-24",
-            "driverId": 0,
-            "round": 17,
-            "trackName": "Lenovo Japanese Grand Prix",
-            "laps": 53
-        },
-        {
-            "id": 18,
-            "date": "2023-10-08",
-            "driverId": 0,
-            "round": 18,
-            "trackName": "Qatar Airways Grand Prix",
-            "laps": 57
-        },
-        {
-            "id": 19,
-            "date": "2023-10-22",
-            "driverId": 0,
-            "round": 19,
-            "trackName": "Lenovo United States Grand Prix",
-            "laps": 56
-        },
-        {
-            "id": 20,
-            "date": "2023-10-29",
-            "driverId": 0,
-            "round": 20,
-            "trackName": "Gran Premio De La Ciudad de Mexico",
-            "laps": 71
-        },
-        {
-            "id": 21,
-            "date": "2023-11-05",
-            "driverId": 0,
-            "round": 21,
-            "trackName": "Rolex Grande Premio de Sao Paulo",
-            "laps": 71
-        },
-        {
-            "id": 22,
-            "date": "2023-11-18",
-            "driverId": 0,
-            "round": 22,
-            "trackName": "Heineken Silver Las Vegas Grand Prix",
-            "laps": 50
-            
-        },
-        {
-            "id": 23,
-            "date": "2023-11-26",
-            "driverId": 0,
-            "round": 22,
-            "trackName": "Etihad Airways Abu Dahabi Grand Prix",
-            "laps": 58
-            
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dion Stoade",
+      "email": "dstoade0@cornell.edu",
+      "isMod": false
+    },
+    {
+      "id": 2,
+      "fullName": "Windy Thorneloe",
+      "email": "wthorneloe1@usa.gov",
+      "isMod": false
+    },
+    {
+      "id": 3,
+      "fullName": "Hillie Phillpotts",
+      "email": "hphillpotts2@rakuten.co.jp",
+      "isMod": false
+    },
+    {
+      "id": 4,
+      "fullName": "Helenelizabeth Passfield",
+      "email": "hpassfield7@netvibes.com",
+      "isMod": true
+    },
+    {
+      "id": 5,
+      "fullName": "Franchot Slator",
+      "email": "fslator8@51.la",
+      "isMod": true
+    },
+    {
+      "id": 6,
+      "fullName": "Renaud Erbe",
+      "email": "rerbe9@psu.edu",
+      "isMod": true
+    },
+    {
+      "email": "jeremy@bakker.com",
+      "fullName": "Jeremy Bakker",
+      "isMod": true,
+      "id": 7
+    }
+  ],
+  "fanUsers": [],
+  "myDrivers": [
+    {
+      "userId": 3,
+      "driverId": 14,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "driverId": 14,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "driverId": 44,
+      "id": 6
+    }
+  ],
+  "drivers": [
+    {
+      "id": 44,
+      "name": "Lewis Hamilton",
+      "championshipStanding": 4,
+      "driversChampionPoints": "148",
+      "podiumsThisSeason": 4,
+      "DHL": "2",
+      "country": "United Kingdom",
+      "teamId": 1,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Max Verstappen",
+      "championshipStanding": "1",
+      "driversChampionPoints": "314",
+      "podiumsThisSeason": "12",
+      "DHL": "6",
+      "country": "Netherlands",
+      "teamId": 2,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg.img.640.medium.jpg/1677069646195.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Sergio Perez",
+      "championshipStanding": 2,
+      "driversChampionPoints": "189",
+      "podiumsThisSeason": "7",
+      "DHL": 2,
+      "country": "Mexico",
+      "teamId": 2,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/perez.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 77,
+      "name": "Valtteri Bottas",
+      "championshipStanding": 15,
+      "driversChampionPoints": 5,
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Finland",
+      "teamId": 9,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/bottas.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lando Norris",
+      "championshipStanding": 8,
+      "driversChampionPoints": "69",
+      "podiumsThisSeason": "2",
+      "DHL": 0,
+      "country": "United Kingdom",
+      "teamId": 4,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/norris.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Daniel Ricciardo",
+      "championshipStanding": 20,
+      "driversChampionPoints": 0,
+      "podiumsThisSeason": "N/A",
+      "DHL": "N/A",
+      "country": "Australia",
+      "teamId": 6,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/ricciardo.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Carlos Sainz Jr.",
+      "championshipStanding": "7",
+      "driversChampionPoints": "92",
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Spain",
+      "teamId": 3,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/sainz.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Charles Leclerc",
+      "championshipStanding": "5",
+      "driversChampionPoints": "99",
+      "podiumsThisSeason": "3",
+      "DHL": 0,
+      "country": "Monaco",
+      "teamId": 3,
+      "img": "https://pbs.twimg.com/media/FZt9FGmWQAE7oVe.jpg"
+    },
+    {
+      "id": 81,
+      "name": "Oscar Piastri",
+      "championshipStanding": 11,
+      "driversChampionPoints": 17,
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Australia",
+      "teamId": 4,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/piastri.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Lance Stroll",
+      "championshipStanding": 9,
+      "driversChampionPoints": "47",
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Canada",
+      "teamId": 7,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/stroll.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Fernando Alonso",
+      "championshipStanding": 3,
+      "driversChampionPoints": "149",
+      "podiumsThisSeason": 6,
+      "DHL": 0,
+      "country": "Spain",
+      "teamId": 7,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/alonso.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Esteban Ocon",
+      "championshipStanding": 10,
+      "driversChampionPoints": "35",
+      "podiumsThisSeason": 1,
+      "DHL": 0,
+      "country": "France",
+      "teamId": 5,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/ocon.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Pierre Gasly",
+      "championshipStanding": 12,
+      "driversChampionPoints": 16,
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "France",
+      "teamId": 5,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/gasly.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Yuki Tsunoda",
+      "championshipStanding": 17,
+      "driversChampionPoints": 2,
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Japan",
+      "teamId": 6,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/tsunoda.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Alexander Albon",
+      "championshipStanding": 13,
+      "driversChampionPoints": 11,
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Thailand",
+      "teamId": 8,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/albon.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Nico Hulkenberg",
+      "championshipStanding": 14,
+      "driversChampionPoints": 9,
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Germany",
+      "teamId": 10,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/hulkenberg.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Zhou Guanyu",
+      "championshipStanding": 16,
+      "driversChampionPoints": 4,
+      "podiumsThisSeason": 0,
+      "DHL": 1,
+      "country": "China",
+      "teamId": 9,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/zhou.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Logan Sargeant",
+      "championshipStanding": 19,
+      "driversChampionPoints": 0,
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Germany",
+      "teamId": 8,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/sargeant.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 63,
+      "name": "George Russel",
+      "championshipStanding": "6",
+      "driversChampionPoints": "99",
+      "podiumsThisSeason": 1,
+      "DHL": 1,
+      "country": "United Kingdom",
+      "teamId": 1,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/russell.jpg.img.1536.high.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Kevin Magnussen",
+      "championshipStanding": 18,
+      "driversChampionPoints": 2,
+      "podiumsThisSeason": 0,
+      "DHL": 0,
+      "country": "Denmark",
+      "teamId": 10,
+      "img": "https://media.formula1.com/content/dam/fom-website/drivers/2023Drivers/magnussen.jpg.img.1536.high.jpg"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "teamName": "Mercedes",
+      "logo": "https://wallpapercave.com/wp/wp8604600.jpg",
+      "teamCar": "https://cdn-3.motorsport.com/images/mgl/YMdyjMg2/s1200/mercedes-w14-1.jpg",
+      "color": "rgb(199, 232, 233)",
+      "constructorStanding": 2,
+      "constructorPoints": 203,
+      "fastestLaps": 2,
+      "currentTeamPrincipal": "Toto Wolff",
+      "driverId1": 44,
+      "driverId2": 63
+    },
+    {
+      "id": 2,
+      "teamName": "Red Bull Racing",
+      "logo": "https://cdn-2.motorsport.com/images/mgl/Y99JQRbY/s8/red-bull-racing-logo-1.jpg",
+      "teamCar": "https://cdn-3.motorsport.com/images/amp/6n9RnBeY/s6/formula-1-red-bull-racing-laun-2.jpg",
+      "color": "rgb(0, 4, 255)",
+      "constructorStanding": 1,
+      "constructorPoints": 411,
+      "fastestLaps": 7,
+      "currentTeamPrincipal": "Christian Horner",
+      "driverId1": 1,
+      "driverId2": 11
+    },
+    {
+      "id": 3,
+      "teamName": "Ferrari",
+      "logo": "https://cdn.ferrari.com/cms/network/media/img/resize/5e728096c74ede4fdf7805df-scuderia-ferrari-mission-winnow-l?",
+      "teamCar": "https://motorsportmagazine.b-cdn.net/wp-content/uploads/2023/02/Ferrari.jpg",
+      "color": "rgb(255, 40, 0)",
+      "constructorStanding": 4,
+      "constructorPoints": 157,
+      "fastestLaps": 0,
+      "currentTeamPrincipal": "Frederic Vasseur",
+      "driverId1": 16,
+      "driverId2": 55
+    },
+    {
+      "id": 4,
+      "teamName": "McLaren",
+      "logo": "https://logowik.com/content/uploads/images/mclaren-formula-1-team8249.logowik.com.webp",
+      "teamCar": "https://i2-prod.mirror.co.uk/incoming/article29207530.ece/ALTERNATES/s615/0_Front34-Final.jpg",
+      "color": "rgb(255, 128, 0)",
+      "constructorStanding": 5,
+      "constructorPoints": 59,
+      "fastestLaps": 0,
+      "currentTeamPrincipal": "Andrea Stella",
+      "driverId1": 81,
+      "driverId2": 4
+    },
+    {
+      "id": 5,
+      "teamName": "Alpine",
+      "logo": "https://img4.autodeclics.com/article/img_evenement/img-95086.jpg",
+      "teamCar": "https://media.alpinecars.com/wp-content/uploads/2022/11/ec183209f124129301b0dba364ac3805.jpeg",
+      "color": "rgb(33, 115, 184)",
+      "constructorStanding": 6,
+      "constructorPoints": 47,
+      "fastestLaps": 0,
+      "currentTeamPrincipal": "Otmar Seafnauer",
+      "driverId1": 10,
+      "driverId2": 31
+    },
+    {
+      "id": 6,
+      "teamName": "AlphaTauri",
+      "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/c7ec7f118459413.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png",
+      "teamCar": "https://cdn-7.motorsport.com/images/amp/YW7pWQOY/s1000/alpha-tauri-04-1.jpg",
+      "color": "rgb(32, 57, 76)",
+      "constructorStanding": 10,
+      "constructorPoints": 2,
+      "fastestLaps": 0,
+      "currentTeamPrincipal": "Franz Tost",
+      "driverId1": 22,
+      "driverId2": 3
+    },
+    {
+      "id": 7,
+      "teamName": "Aston Martin",
+      "logo": "https://cognizant.scene7.com/is/image/cognizant/amf1-cognizant-logo-2022-1?",
+      "teamCar": "https://media.formula1.com/image/upload/content/dam/fom-website/manual/Misc/2023manual/Pre-season/February/AMR/AM23_CAR_2548%20TC%2016x9.jpg.transform/9col/image.jpg",
+      "color": "rgb(3, 122, 104)",
+      "constructorStanding": 3,
+      "constructorPoints": 181,
+      "fastestLaps": 0,
+      "currentTeamPrincipal": "Mike Krack",
+      "driverId1": 18,
+      "driverId2": 14
+    },
+    {
+      "id": 8,
+      "teamName": "Williams",
+      "logo": "https://cdn.williamsf1.tech/images/fnx611yr/production/ff454bb2b4adb541b66477adcb49088f8de0fb4a-2400x2400.jpg?rect=0,572,2400,1256&w=1200&h=628&auto=format",
+      "teamCar": "https://www.topgear.com/sites/default/files/2023/07/0%20Williams%20800.jpg",
+      "color": "rgb(0, 160, 222)",
+      "constructorStanding": 7,
+      "constructorPoints": 11,
+      "fastestLaps": 0,
+      "currentTeamPrincipal": "James Vowles",
+      "driverId1": 2,
+      "driverId2": 23
+    },
+    {
+      "id": 9,
+      "teamName": "Alfa Romeo",
+      "logo": "https://media.formula1.com/image/upload/content/dam/fom-website/manual/teams/Sauber/Alfa_Romeo_Racing_logo.jpg",
+      "teamCar": "https://cdn-7.motorsport.com/images/amp/0RrV1rA0/s6/formula-1-alfa-romeo-launch-20-2.jpg",
+      "color": "rgb(164, 33, 52)",
+      "constructorStanding": 9,
+      "constructorPoints": 9,
+      "fastestLaps": 1,
+      "currentTeamPrincipal": "Alessandro Alunni Bravi",
+      "driverId1": 24,
+      "driverId2": 77
+    },
+    {
+      "id": 10,
+      "teamName": "Haas",
+      "logo": "https://cdn.mos.cms.futurecdn.net/uuQxV8xeSFh3PpnuzAyKKV.png",
+      "teamCar": "https://cdn-5.motorsport.com/images/amp/YEQnVvKY/s6/formula-1-haas-f1-launch-2023--2.jpg",
+      "color": "rgb(230, 0, 43)",
+      "constructorStanding": 8,
+      "constructorPoints": 11,
+      "fastestLaps": 0,
+      "currentTeamPrincipal": "Guenther Steiner",
+      "driverId1": 27,
+      "driverId2": 20
+    }
+  ],
+  "races": [
+    {
+      "id": 1,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Bahrain_Circuit.png",
+      "date": "2023-03-05",
+      "driverId": 1,
+      "round": 1,
+      "trackName": "Bahrain International Circuit",
+      "laps": 57
+    },
+    {
+      "id": 2,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Saudi_Arabia_Circuit.png.transform/9col/image.png",
+      "date": "2023-03-19",
+      "driverId": 11,
+      "round": 2,
+      "trackName": "Saudi Arabia",
+      "laps": 55
+    },
+    {
+      "id": 3,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Australia_Circuit.png",
+      "date": "2023-04-02",
+      "driverId": 1,
+      "round": 3,
+      "trackName": "Austalian Grand Prix",
+      "laps": 58
+    },
+    {
+      "id": 4,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Baku_Circuit.png.transform/9col/image.png",
+      "date": "2023-04-30",
+      "driverId": 11,
+      "round": 4,
+      "trackName": "Azerbaijan Grand Prix",
+      "laps": 51
+    },
+    {
+      "id": 5,
+      "trackIMG": "https://media.formula1.com/image/upload/f_auto/q_auto/v1677244985/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Miami_Circuit.png.transform/9col/image.png",
+      "date": "2023-05-07",
+      "driverId": 1,
+      "round": 5,
+      "trackName": "Miami Grand Prix",
+      "laps": 57
+    },
+    {
+      "id": 7,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Monoco_Circuit.png",
+      "date": "2023-05-28",
+      "driverId": 1,
+      "round": 7,
+      "trackName": "Monaco Grand Prix",
+      "laps": 78
+    },
+    {
+      "id": 8,
+      "trackIMG": "https://media.formula1.com/image/upload/f_auto/q_auto/v1677244986/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Spain_Circuit.png.transform/9col/image.png",
+      "date": "2023-06-04",
+      "driverId": 1,
+      "round": 8,
+      "trackName": "AWS Gran Premio de Espana",
+      "laps": 78
+    },
+    {
+      "id": 9,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Canada_Circuit.png.transform/9col/image.png",
+      "date": "2023-06-18",
+      "driverId": 1,
+      "round": 9,
+      "trackName": "Grand Prix Du Canada",
+      "laps": 70
+    },
+    {
+      "id": 10,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Austria_Circuit.png.transform/9col/image.png",
+      "date": "2023-07-02",
+      "driverId": 1,
+      "round": 10,
+      "trackName": "Grosser Preis Von Osterreich",
+      "laps": 71
+    },
+    {
+      "id": 11,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Great_Britain_Circuit.png.transform/9col/image.png",
+      "date": "2023-07-09",
+      "driverId": 1,
+      "round": 11,
+      "trackName": "Aramco British Grand Prix",
+      "laps": 52
+    },
+    {
+      "id": 12,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Hungary_Circuit.png",
+      "date": "2023-07-23",
+      "driverId": 1,
+      "round": 13,
+      "trackName": "Hungarian Grand Prix",
+      "laps": 70
+    },
+    {
+      "id": 13,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Belgium_Circuit.png",
+      "date": "2023-07-30",
+      "driverId": "1",
+      "round": 13,
+      "trackName": "MSC Cruises Belgian Grand Prix",
+      "laps": 44
+    },
+    {
+      "id": 14,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Netherlands_Circuit.png.transform/9col/image.png",
+      "date": "2023-8-27",
+      "driverId": "0",
+      "round": 14,
+      "trackName": "Keineken Dutch Grand Prix",
+      "laps": 53
+    },
+    {
+      "id": 15,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Italy_Circuit.png.transform/9col/image.png",
+      "date": "2023-09-03",
+      "driverId": 0,
+      "round": 15,
+      "trackName": "Pirelli Grand Premio D'Italia",
+      "laps": 53
+    },
+    {
+      "id": 16,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Singapore_Circuit.png.transform/9col/image.png",
+      "date": "2023-9-17",
+      "driverId": 0,
+      "round": 16,
+      "trackName": "Singapore Airlines Singapore Grand Prix",
+      "laps": 63
+    },
+    {
+      "id": 17,
+      "trackIMG": "https://media.formula1.com/image/upload/f_auto/q_auto/v1677250050/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Japan_Circuit.png.transform/9col/image.png",
+      "date": "2023-09-24",
+      "driverId": 0,
+      "round": 17,
+      "trackName": "Lenovo Japanese Grand Prix",
+      "laps": 53
+    },
+    {
+      "id": 18,
+      "trackIMG": "https://media.formula1.com/image/upload/f_auto/q_auto/v1677244985/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Qatar_Circuit.png.transform/9col/image.png",
+      "date": "2023-10-08",
+      "driverId": 0,
+      "round": 18,
+      "trackName": "Qatar Airways Grand Prix",
+      "laps": 57
+    },
+    {
+      "id": 19,
+      "trackIMG": "https://media.formula1.com/image/upload/f_auto/q_auto/v1677244984/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/USA_Circuit.png.transform/9col/image.png",
+      "date": "2023-10-22",
+      "driverId": 0,
+      "round": 19,
+      "trackName": "Lenovo United States Grand Prix",
+      "laps": 56
+    },
+    {
+      "id": 20,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Mexico_Circuit.png",
+      "date": "2023-10-29",
+      "driverId": 0,
+      "round": 20,
+      "trackName": "Gran Premio De La Ciudad de Mexico",
+      "laps": 71
+    },
+    {
+      "id": 21,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Brazil_Circuit.png.transform/9col/image.png",
+      "date": "2023-11-05",
+      "driverId": 0,
+      "round": 21,
+      "trackName": "Rolex Grande Premio de Sao Paulo",
+      "laps": 71
+    },
+    {
+      "id": 22,
+      "trackIMG": "https://media.formula1.com/image/upload/f_auto/q_auto/v1677249930/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Las_Vegas_Circuit.png.transform/8col/image.png",
+      "date": "2023-11-18",
+      "driverId": 0,
+      "round": 22,
+      "trackName": "Heineken Silver Las Vegas Grand Prix",
+      "laps": 50
+    },
+    {
+      "id": 23,
+      "trackIMG": "https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Abu_Dhabi_Circuit.png.transform/8col/image.png",
+      "date": "2023-11-26",
+      "driverId": 0,
+      "round": 22,
+      "trackName": "Etihad Airways Abu Dahabi Grand Prix",
+      "laps": 58
+    }
+  ]
 }

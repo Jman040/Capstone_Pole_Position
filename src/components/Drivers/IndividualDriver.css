@@ -1,0 +1,105 @@
+/* IndividualDriver.css */
+
+.driver_pop_container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  display: flex;
+  background-color: #333; /* Dark grey background */
+  border: 1px solid #000; /* Black border */
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); /* White box shadow */
+  z-index: 999;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff; /* White text color */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.driver_info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 2rem;
+  font-size: 18px;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.driver_info div {
+  margin-bottom: 1rem;
+}
+
+.driver_pop_container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 2rem;
+}
+
+/* Center the buttons below the information and image */
+.driver_info button.addDriverButton {
+  width: 160px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff; /* White text color */
+  background: #000; /* Black background */
+  border: 2px solid #000; /* Black border */
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.driver_info button.addDriverButton:hover {
+  background-color: #ff0000; /* Replace with your desired link hover background color */
+  border-color: #ffffff; /* Replace with your desired link hover border color */
+}
+
+.driver_pop_container button.closeButton {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff; /* White text color */
+  transition: color 0.3s ease; /* Add the color transition for the hover effect */
+}
+.driver_pop_container button.closeButton:hover {
+  color: #ff0000; /* Red color on hover */
+}
+.driver_info .editButton {
+  width: 160px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  background: #000;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.driver_info .editButton:hover {
+  background-color: #ff0000;
+  border-color: #ffffff;
+}

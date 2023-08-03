@@ -2,10 +2,12 @@ import { Outlet, Route, Routes } from "react-router-dom";
 import { DriverDetails } from "../Drivers/DriverDetails.js";
 import { TeamDetails } from "../Teams/TeamDetails.js";
 import { ScheduleDetails } from "../Schedule/ScheduleDetails.js";
-
+import { IndividualDriver } from "../Drivers/IndividualDriver.js";
+import { MyDrivers } from "../MyDrivers/MyDrivers.js";
 
 export const FanViews = () => {
     return (
+
         <Routes>
             <Route
                 path="/"
@@ -24,7 +26,7 @@ export const FanViews = () => {
 
                 <Route path="schedule" element={<ScheduleDetails />} />
 
-                {/* <Route path="myDrivers" element={<MyDrivers />} />  */}
+                <Route path="myDrivers" element={<MyDrivers />} />
 
 
             </Route>

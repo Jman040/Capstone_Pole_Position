@@ -1,19 +1,12 @@
 import { useEffect, useState } from "react"
 import "./Schedule.css";
-import { useParams } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 
 export const ScheduleDetails = () => {
-    // const { driverId } = useParams()
     const [schedule, setSchedule] = useState([]);
-    // const [filteredDrivers, setFilteredDriver] = useState([]);
-
-    // useEffect(() => {
-    //     const searchedDriver = driver.filter((driver) =>
-    //         driver.name.toLowerCase().startsWith(searchTermState.toLowerCase())
-    //     );
-    //     setFilteredDriver(searchedDriver);
-    // }, [searchTermState]);
-
+    const localUser = localStorage.getItem("pole_user")
+    const currentUser = JSON.parse(localUser)
+    const navigate = useNavigate()
 
     useEffect(
         () => {
@@ -31,11 +24,19 @@ export const ScheduleDetails = () => {
             <article className="races">
                 {schedule.map((schedule) => {
                     return (
-                        <section className="race">
-                            <header>{schedule.trackName}</header>
-                            <div>Date:{schedule.date}</div>
+                        <section key={schedule.id} className="race">
+                            <header><img src={schedule.trackIMG} alt={schedule.name} /></header>
+                            <div>{schedule.trackName}</div>
+                            <div>Date: {schedule.date}</div>
                             <div>Winner: {schedule?.driver?.name}</div>
-                            <div></div>
+                            <img src={schedule?.driver?.img} alt={schedule?.driver?.name} />
+                            <div>
+                                {currentUser.isMod ? (
+                                    <Link to={`/schedule/${schedule?.id}`}>
+                                        <button className="editButton">Edit Race</button>
+                                    </Link>
+                                ) : null}
+                            </div>
                         </section>
                     );
                 })}

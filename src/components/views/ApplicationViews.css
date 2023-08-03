@@ -1,0 +1,21 @@
+.main-container {
+    background-color: #000; /* Black background */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Set the container height to cover the full viewport height */
+    color: #fff; /* White text color for the h1 and div */
+    font-family: Arial, sans-serif;
+}
+
+/* YourComponent.css */
+h1 {
+    font-size: 36px; /* Set your desired font size for h1 */
+    text-align: center; /* Center the h1 element horizontally */
+}
+
+.sub-heading {
+    font-size: 24px; /* Set your desired font size for the sub-heading */
+    text-align: center; /* Center the div element horizontally */
+}

@@ -1,10 +1,74 @@
-.races {
-    display: flex;
-    flex-direction: column;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed to center the content vertically */
 }
+
+.races {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 columns per row */
+  grid-gap: 20px;
+}
+
 .race {
-    background-color:cadetblue;
-    border: 1px solid;
-    padding: .10rem;
-    margin: .5rem 0;
+  position: relative;
+  width: 260px; /* Doubled width for the card */
+  height: 440px; /* Doubled height for the card */
+  background: #333; /* Dark grey background */
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White floating outline using box-shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /* Add some padding to create space between elements */
+}
+
+.race img {
+  max-width: 200px; /* Adjust the driver's image size as needed */
+  max-height: 150px; /* Adjust the driver's image size as needed */
+  object-fit: contain;
+  border-radius: 4px;
+  margin-bottom: 12px; /* Add some space between the header image and race details */
+}
+
+.race div {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff; /* White text color */
+  margin-bottom: 6px; /* Add some space between race details */
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff; /* White text color */
+  margin-bottom: 20px; /* Add some space between the heading and race cards */
+}
+.race button.editButton {
+  width: 160px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff; /* White text color */
+  background: #000; /* Black background */
+  border: 2px solid #000; /* Black border */
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto; /* Push the button to the bottom of the card */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.race button.editButton:hover {
+  background-color: #ff0000; /* Red background color on hover */
+  border-color: #ffffff; /* White border color on hover */
 }

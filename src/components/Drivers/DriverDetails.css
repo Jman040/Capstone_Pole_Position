@@ -1,0 +1,98 @@
+/* CSS for the list of drivers with driver image included */
+.container {
+  display: flex;
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+  padding: 20px; /* Add padding to the container while keeping the padding between grid items */
+}
+
+.drivers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+
+/* Rest of the CSS styles remain unchanged */
+
+
+.driver-card {
+  position: relative;
+  width: 270px;
+  height: 420px;
+  background: #333; /* Dark grey background */
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White floating outline using box-shadow */
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /* Add some padding to create space between elements */
+}
+
+.driver-card img {
+  max-width: 200px; /* Adjust the image size as needed */
+  max-height: 200px; /* Adjust the image size as needed */
+  object-fit: contain;
+  margin-bottom: 10px; /* Add some space between the current standing and the image */
+}
+
+.driver-card .driver-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff; /* White text color */
+  margin-bottom: 8px; /* Add some space between the name and the team */
+}
+
+.driver-card .driver-team {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff; /* White text color */
+  margin-bottom: 12px; /* Add some space between the team and the current standing */
+}
+
+.driver-card .driver-standing {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5); /* Light grey text color */
+  margin-bottom: 10px; /* Add some space between the current standing and the image */
+}
+
+.driver-card .view-driver-button {
+  width: 160px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff; /* White text color */
+  background: #000; /* Black background */
+  border: 2px solid #000; /* Black border */
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto; /* Push the button to the bottom of the card */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.driver-card .view-driver-button:hover {
+  background-color: #1d1d20; /* Replace with your desired link hover background color */
+  border-color: #1d1d20; /* Replace with your desired link hover border color */
+}
+.container {
+  display: flex;
+  justify-content: center; /* Center the grid horizontally */
+  padding: 20px; /* Add padding to the container while keeping the padding between grid items */
+}
+
+
+
+/* Rest of the CSS styles remain unchanged */
